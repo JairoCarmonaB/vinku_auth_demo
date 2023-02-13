@@ -1,0 +1,26 @@
+{
+    "name": "vinku_auth",
+    "version": "1.5.0",
+    "description": "Verify data with auth provider",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "auth",
+        "vinku",
+        "firebase",
+        "nestjs"
+    ],
+    "author": "Jairo Carmona",
+    "license": "ISC",
+    "dependencies": {
+        "@nestjs/common": "^9.1.6",
+        "firebase-admin": "^11.2.0",
+        "rxjs": "^7.5.7"
+    }
+}
